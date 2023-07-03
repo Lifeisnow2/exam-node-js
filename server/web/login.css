@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 300px;
+  height: auto;
+}
+
+.title {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+main {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .login-card {
+  width: 500px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 64px 32px 48px;
+}
+
+main .login-card h1 {
+  text-align: center;
+  margin-bottom: 64px;
+  font-weight: bold;
+}
+
+input:focus {
+  outline: none;
+}
+
+main .login-card form input {
+  display: block;
+  width: 100%;
+  border: 3px solid lightgray;
+  padding: 16px;
+  font-size: 16px;
+}
+
+main .login-card form input:first-of-type {
+  margin-bottom: 24px;
+}
+
+main .login-card form label {
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+main .login-card form .link-container {
+  margin-top: 16px;
+  text-align: right;
+  margin-bottom: 32px;
+}
+
+main .login-card form a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+main .login-card form button {
+  width: 100%;
+  padding: 16px 0;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 1px solid;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+main .login-card .span-container {
+  text-align: center;
+  margin: 48px 0 32px;
+}
+
+main .login-card .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+main .login-card form button:enabled {
+  background-color: gray;
+  color: white;
+}
